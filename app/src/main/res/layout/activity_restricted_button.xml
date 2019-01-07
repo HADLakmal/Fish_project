@@ -5,18 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".restricted_button">
+    tools:context=".Prohibited_button">
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="395dp"
+        android:layout_width="0dp"
         android:layout_height="471dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="180dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -31,28 +29,35 @@
 
             <LinearLayout
                 android:id="@+id/p_1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:background="#FFFFFF"
                 android:clickable="true"
                 android:orientation="horizontal">
 
-                <com.mikhaellopez.circularimageview.CircularImageView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:saveEnabled="false"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/pro_1"
-                    app:civ_border_color="@android:color/holo_red_dark"
-                    app:civ_border_width="4dp"
-                    app:civ_shadow="false"
-                    app:civ_shadow_color="#4B0082"
-                    app:civ_shadow_radius="10" />
+                    <com.mikhaellopez.circularimageview.CircularImageView
+
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:saveEnabled="false"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pro_1"
+                        app:civ_border_color="@android:color/holo_red_dark"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="false"
+                        app:civ_shadow_color="#4B0082"
+                        app:civ_shadow_radius="10" />
+                </LinearLayout>
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="100dp"
                     android:background="@drawable/arrow"
                     android:fontFamily="monospace"
@@ -73,21 +78,29 @@
                 android:clickable="true"
                 android:orientation="horizontal">
 
-                <com.mikhaellopez.circularimageview.CircularImageView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:saveEnabled="false"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/pro_2"
-                    app:civ_border_color="@android:color/holo_red_dark"
-                    app:civ_border_width="4dp"
-                    app:civ_shadow="false"
-                    app:civ_shadow_color="#4B0082"
-                    app:civ_shadow_radius="10" />
+                    <com.mikhaellopez.circularimageview.CircularImageView
+
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:saveEnabled="false"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pro_2"
+                        app:civ_border_color="@android:color/holo_red_dark"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="false"
+                        app:civ_shadow_color="#4B0082"
+                        app:civ_shadow_radius="10" />
+                </LinearLayout>
+
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="100dp"
                     android:background="@drawable/arrow"
                     android:fontFamily="monospace"
@@ -108,18 +121,25 @@
                 android:clickable="true"
                 android:orientation="horizontal">
 
-                <com.mikhaellopez.circularimageview.CircularImageView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:saveEnabled="false"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/pro_3"
-                    app:civ_border_color="@android:color/holo_red_dark"
-                    app:civ_border_width="4dp"
-                    app:civ_shadow="false"
-                    app:civ_shadow_color="#4B0082"
-                    app:civ_shadow_radius="10" />
+                    <com.mikhaellopez.circularimageview.CircularImageView
+
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:saveEnabled="false"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pro_3"
+                        app:civ_border_color="@android:color/holo_red_dark"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="false"
+                        app:civ_shadow_color="#4B0082"
+                        app:civ_shadow_radius="10" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -130,8 +150,7 @@
                     android:text="Dankuda Pethiya"
                     android:textColor="@color/vpi__background_holo_dark"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -144,18 +163,25 @@
                 android:clickable="true"
                 android:orientation="horizontal">
 
-                <com.mikhaellopez.circularimageview.CircularImageView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:saveEnabled="false"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/pro_4"
-                    app:civ_border_color="@android:color/holo_red_dark"
-                    app:civ_border_width="4dp"
-                    app:civ_shadow="false"
-                    app:civ_shadow_color="#4B0082"
-                    app:civ_shadow_radius="10" />
+                    <com.mikhaellopez.circularimageview.CircularImageView
+
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:saveEnabled="false"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pro_4"
+                        app:civ_border_color="@android:color/holo_red_dark"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="false"
+                        app:civ_shadow_color="#4B0082"
+                        app:civ_shadow_radius="10" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"

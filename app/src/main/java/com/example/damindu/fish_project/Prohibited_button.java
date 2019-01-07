@@ -4,10 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-public class restricted_button extends AppCompatActivity implements View.OnClickListener {
+public class Prohibited_button extends AppCompatActivity implements View.OnClickListener {
 
     private final static int REQUEST_CODE_1 = 1;
     @Override
@@ -19,7 +18,7 @@ public class restricted_button extends AppCompatActivity implements View.OnClick
 //        restricted.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
-//                startActivity(new Intent(restricted_button.this, prob_content.class));
+//                startActivity(new Intent(Prohibited_button.this, Prob_content.class));
 //            }
 //        });
 
@@ -36,18 +35,22 @@ public class restricted_button extends AppCompatActivity implements View.OnClick
         switch (v.getId()) {
 
             case R.id.p_1:
-                Intent intent = new Intent(restricted_button.this, prob_content.class);
+                Intent intent = new Intent(Prohibited_button.this, Prob_content.class);
                 intent.putExtra("key", "1");
                 startActivityForResult(intent, REQUEST_CODE_1);
 
                 break;
 
             case R.id.p_2:
-                startActivity(new Intent(restricted_button.this, prob_content.class));
+                Intent intent_1 = new Intent(Prohibited_button.this, Prob_content.class);
+                intent_1.putExtra("key", "2");
+                startActivityForResult(intent_1, REQUEST_CODE_1);
                 break;
 
             case R.id.p_3:
-                startActivity(new Intent(restricted_button.this, prob_content.class));
+                Intent intent_2 = new Intent(Prohibited_button.this, Prob_content.class);
+                intent_2.putExtra("key", "3");
+                startActivityForResult(intent_2, REQUEST_CODE_1);
                 break;
 
             default:

@@ -34,7 +34,7 @@ public class Main extends AppCompatActivity {
         restricted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Main.this, restricted_button.class));
+                startActivity(new Intent(Main.this, Prohibited_button.class));
             }
         });
 

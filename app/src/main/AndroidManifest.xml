@@ -19,13 +19,13 @@
         <activity
             android:name=".Viewer"
             android:label="@string/title_activity_viewer" />
-        <activity android:name=".restricted_button" />
+        <activity android:name=".Prohibited_button" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".prob_content"></activity>
+        <activity android:name=".Prob_content"></activity>
     </application>
 
 </manifest>
