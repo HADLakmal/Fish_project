@@ -96,24 +96,22 @@
     </string>
     <string name="pro_1">
         <![CDATA[<h3>Scientific name :- <i>Systomus asoka</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Asoka Barb</li>
-        <li><b>Sinhala name</b> :- Ran manissa, Asoka pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
-
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
-
-        ]]>
+        <li>    <b>Family</b> :- Cyprinidae</li>
+        <li>    <b>English name</b> :- Sri Lanka Asoka Barb</li>
+        <li>    <b>Sinhala name</b> :- Ran manissa, Asoka pethiya</li>
+        <li>    <b>IUCN Status</b> :- Local (2012): CR </li>
+        <li>    <b>Location</b> :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river  </li>
+        <li>    <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates</li>
+        <li>    <b>Maximum length</b> :- Can be grow up to 14 cm</li>
+        <li>    <b>Identification features</b> :-
+        <br>Horizontally elongated blotch found on caudal peduncle</br>
+        <br>Top and bottom margins of caudal fin are red</br>
+        <br>Other fins are transparent with yellow color</br>
+        <br>Two pairs of barbels present</br>
+        <br>5-7 black strips running on lateral side along the body</br>
+	    </li>
+        <li><b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places</li>
+          ]]>
     </string>
 
     <string name="pro_2_name">
@@ -124,18 +122,20 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Martenstyn\'s Barb</li>
         <li><b>Sinhala name</b> :- Dumbara pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+         <li><b>Global (2018):</b></li>
+         <li><b>Location</b> :- Found in Knuckles mountain range and tributaries of River Mahaweli: Loggal Oya and Badulu Oya</li>
+         <li><b>Environment</b> :- Found in Shaded or unshaded mid-hill streams with sandy or rocky substrates</li>
+         <li><b>Maximum length</b> :- Can be grow up to 12cm</li>
+         <li><b>Identification features :-</b>
+         <br>Black horizontal blotch present on caudal peduncle</br>
+         <br>Lateral line complete</br>
+         <br>Two pairs of barbels but no tubercles on the snout</br>
+         <br>Fins are transparent with red/orange color</br>
+	</li>
+         <li><b>Other</b> :-  This species can be overlapping with Systomus asoka</li>
+
 
 
         ]]>
@@ -149,244 +149,251 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
         <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018):</b></li>
 
+        <li><b>Location</b> :- Restricted to the Knuckles mountain range and tributaries of River Mahaweli, Kuda Oya and Amban Ganga</li>
+        <li><b>Environment</b> :- Found in fast flowing streams with sandy substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 10cm</li>
+        <li><b>Identification features :-</b>
+        <br>Three distinct black blotches in adults</br>
+        <br>Terminal mouth/br>
+        <br>Black spot is present on the base of dorsal fin</br>
+        <br>Matured males have a filamentous dorsal fin with 3-5 black</br>
+        <br>Elongated rays</br></li>
+        <li><b>Other</b> :-  Juveniles have 4-5 black cross bars across body. When matured fade in to 3 exiting blotches</li>
 
         ]]>
     </string>
 
     <string name="pro_4_name">
-        "DANKUDA PETHIYA"
+        "BANDULA PETHIYA"
     </string>
     <string name="pro_4">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
+        <![CDATA[<h3>Scientific name :- <i>Pethia bandula</i></h3> \n
         <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>English name</b> :- Sri Lanka Bandula Barb</li>
+        <li><b>Sinhala name</b> :- Jayanthiya, Bandula pethiya</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018):</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>Location</b>  :- Restricted to Minimaru Colaniya in Pallegama Estate near Galapitamada</li>
+        <li><b>Environment</b> :- Found in slow flowing, shallow streams that flowing through rice field and rubber plantation with sandy and muddy substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 4.5cm</li>
+        <li><b>Identification features :-</b>
+        <br>Have two vertical black blotches on the body</br>
+        <br>Lateral line is incomplete</br>
+
+        </li>
+        <li><b>Other</b> :- Females are in lighter color</li>
+
 
 
         ]]>
     </string>
 
     <string name="pro_5_name">
-        "DANKUDA PETHIYA"
+        "GADAYA"
     </string>
     <string name="pro_5">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
+        <![CDATA[<h3>Scientific name :- <i>Labeo fisheri</i></h3> \n
         <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>English name</b> :- Sri Lanka Mountain Labeo</li>
+        <li><b>Sinhala name</b> :- Gadaya, Loku gadaya, Kalu gadaya, Weli gadaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018): EN</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
+        <li><b>Location</b>  :- Found in upper reaches of Mahaweli river</li>
+        <li><b>Environment</b> :- Prefer deep rocky pools habitats in fast flowing mountain rivers</li>
+        <li><b>Maximum length</b> :- Can be grow up to 24 cm</li>
+        <li><b>Identification features :-</b>
+        <br>Two pairs of barbels are present</br>
+        <br>Dark black blotch found on caudal peduncle</br>
+        <br>Have inferior sucker like mouth with thick fleshy lips</br>
+        <br>Origin of dorsal fin close to tip of snout than caudal</br>
+        </li>
+        <li><b>Other</b>  :-  N/A</li>
 
         ]]>
     </string>
 
     <string name="pro_6_name">
-        "DANKUDA PETHIYA"
+        "THAMBALAYA"
     </string>
     <string name="pro_6">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
+        <![CDATA[<h3>Scientific name :- <i>Labeo lankae</i></h3> \n
         <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>English name</b> :- Sri Lanka Orange-Fin Labeo</li>
+        <li><b>Sinhala name</b> :- Thambalaya, Thambalaya vanna</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018):</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
+        <li><b>Location</b>  :- Found in Mahaweli and Amban rivers</li>
+        <li><b>Environment</b> :- Prefer deep rocky pools habitats in fast flowing mountain rivers</li>
+        <li><b>Maximum length</b> :- Can be grow up to 20-30 cm</li>
+        <li><b>Identification features :-</b>
+        <br>Only one pair of barbels is present</br>
+        <br>Dark black forward pointing blotch found on caudal penuncle</br>
+        <br>Have inferior sucker like mouth with thick fleshy lips</br>
+        </li>
+        <li><b>Other</b> :- This species can be overlapping with Systomus martenstyni and Systomus sp.Richmondi</li>
 
         ]]>
     </string>
 
     <string name="pro_7_name">
-        "DANKUDA PETHIYA"
+        "WILPITA DANDIYA"
     </string>
     <string name="pro_7">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
+        <![CDATA[<h3>Scientific name :- <i>Rasbora wilpita</i></h3> \n
         <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>English name</b> :- Sri Lanka Wilpita Rasbora</li>
+        <li><b>Sinhala name</b> :- Wilpita dandiya</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN</li>
+        <li><b>Global (2018):</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
+        <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
+        <li><b>Environment</b> :- Found in Shaded slow flowing streams with muddy or leafy substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 8 cm</li>
+        <li><b>Identification features :-</b>
+        <br>Elongated body with terminal mouth</br>
+        <br>Prominent symphysial knob on lower jaw</br>
+        <br>Conspicuous lateral processes on premaxillary</br>
+        </li>
+        <li><b>Other</b> :- No sexual dimorphism</li>
 
         ]]>
     </string>
 
     <string name="pro_8_name">
-        "DANKUDA PETHIYA"
+        "PULLI AHIRAVA"
     </string>
     <string name="pro_8">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <![CDATA[<h3>Scientific name :- <i>Lepidocephalichthys jonklaasi</i></h3> \n
+        <li><b>Family</b> :- Cobitidae</li>
+        <li><b>English name</b> :- Sri Lanka Jonklaas\'s Loach</li>
+        <li><b>Sinhala name</b> :- Ahirava, Pulli ahirava</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018):</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>Location</b>  :- Found in Kelani to Nilwala river basins/li>
+        <li><b>Environment</b> :- Found in Shaded slow flowing streams with muddy or leafy substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 5 cm</li>
+        <li><b>Identification features  :-</b>
+        <br>There is a dark stripe from eye to upper lip/br>
+        <br>Three pairs of barbels present</br>
+        <br>Vertically elongated blotch on the end of caudal peduncle</br>
+
+        </li>
+        <li><b>Other</b> :- This species can be overlapping with Lepidocephalichthys thermalis</li>
 
 
         ]]>
     </string>
 
     <string name="pro_9_name">
-        "DANKUDA PETHIYA"
+        "MALPULUTTA"
     </string>
     <string name="pro_9">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
-
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
+        <![CDATA[<h3>Scientific name :- <i>Malpulutta kretseris</i></h3>
+        <li><b>Family</b> :- Belontidae</li>
+        <li><b>English name</b> :- Sri Lanka Ornate Paradise Fish</li>
+        <li><b>Sinhala name</b> :- Malpulutta</li>
+         <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018) : LC-</b></li>
+        <li><b>Location</b>  :- Found in Kalu to Niwala river basins</li>
+        <li><b>Environment</b> :- Found in small, shallow, slow flowing silted streams</li>
+        <li><b>Maximum length</b> :- Can be grow up to 4 cm</li>
+        <li><b>Identification features :- </b>
+        <br>Dorsal and anal fins are pointed with filaments</br>
+        <br>First ray of pelvic fin are elongated with filaments</br>
+        <br>2-3 middle rays of lanceololate caudal fin elongated with filaments</br>
+        <br>Have two dark lines which start from snout to posterior end of the operculum</br>
+        </li>
+        <li><b>Other</b> :- Females and juveniles lack the elongated filaments and the blue tint on the fins,
+Males are larger and more colorful than females,
+Females and juveniles can be overlapping with Pseudosphromenus
+cupanus</li>
 
         ]]>
     </string>
 
     <string name="pro_10_name">
-        "DANKUDA PETHIYA"
+        "THOL RATHU WELIGOWWA"
     </string>
     <string name="pro_10">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <![CDATA[<h3>Scientific name :- <i>Sicyopus jonklaasi</i></h3> \n
+        <li><b>Family</b> :- Gobiidae</li>
+        <li><b>English name</b> :- Sri Lanka Lipstick Gobyb</li>
+        <li><b>Sinhala name</b> :- Thol rathu weligowwa</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN </li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>Global (2018): DD-</b></li>
+        <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
+        <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing
+water</li>
+        <li><b>Maximum length</b> :- Can be grow up to 5 cm</li>
+        <li><b>Identification features :-</b>
+        <br>Male brownish to yellowish with bright red lips</br>
+        <br>Bright red colored elliptical blotch found in base of the caudal fin</br>
 
+        </li>
+        <li><b>Other</b> :- Females Lack of red color in the body</li>
+        <li><b></b></li>
 
         ]]>
     </string>
 
     <string name="pro_11_name">
-        "DANKUDA PETHIYA"
+        "GAL WELIGOWWA"
     </string>
     <string name="pro_11">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <![CDATA[<h3>Scientific name :- <i>Sicyopterus halei</i></h3> \n
+        <li><b>Family</b> :- Gobiidae</li>
+        <li><b>English name</b> :- Red-Tailed Goby</li>
+        <li><b>Sinhala name</b> :- Gal weligowwa</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018) :DD</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>Location</b> :- Found in Kelani to Gin river basin</li>
+        <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing water</li>
+        <li><b>Maximum length</b> :- Can be grow up to 8 cm </li>
+        <li><b>Identification features :-</b>
+        <br>7-8 dark blotches can be found in dorsal and lateral sides of the body</br>
+        <br>Second ray of the first dorsal fin is elongated</br>
+
+        </li>
+        <li><b>Other</b> :- N/A</li>
+        <li><b></b></li>
+
 
 
         ]]>
     </string>
 
     <string name="pro_12_name">
-        "DANKUDA PETHIYA"
+        "KATA RATHU WELIGOWWA"
     </string>
     <string name="pro_12">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <![CDATA[<h3>Scientific name :- <i>Schismatogobius deraniyagalai</i></h3> \n
+        <li><b>Family</b> :- Gobiidae</li>
+        <li><b>English name</b> :- Red-Neck Goby</li>
+        <li><b>Sinhala name</b> :- Kata rathu weligowwa</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN</li>
+        <li><b>Global (2018) : DD</b></li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
+        <li><b>Location</b> :- Restricted to wet zone</li>
+        <li><b>Environment</b> :- Found in shallow areas of rivers with sandy, coarse sand or gravel substrate</li>
+        <li><b>Maximum length</b> :- Can be grow up to 4-5 cm</li>
+        <li><b>Identification features :- </b>
+        <br>4-5 irregular black spots found along lateral line of the body</br>
+        <br>A large, vertically elongated, oval spot at base of caudal fin</br>
+        <br>Gape reaching backwards almost to preopercle angle in males and to middle of eye in females</br>
+        <br>In males, the chin and throat are orange-red. Inside of mouth of male’s bright red</br>
 
+        </li>
+        <li><b>Other</b> :- Females are dull in color</li>
 
         ]]>
     </string>
@@ -399,19 +406,14 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
         <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <b><li>IUCN Status</li></b> :- Local (2012): CR \n
+        <li><b>IUCN Status</b> :- Local (2012): VU </li>
+        <li>Global (2018) :</li>
 
-        <b>Location</b>  :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river \n
-        <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates \n
-        <b>Maximum length</b> :- Can be grow up to 14 cm \n
-        <b>Identification features</b> :- /n
-	Horizontally elongated blotch found on caudal peduncle /n
-	Top and bottom margins of caudal fin are red /n
-	Other fins are transparent with yellow color /n
-	Two pairs of barbels present /n
-	5-7 black strips running on lateral side along the body \n
-	<b>Other</b> :-  Conservation of these species very important due to decline population and restricted to few places
-
+        <li><b>Location</b> :- Found in Kalu to Nilwala river basins</li>
+        <li><b>Environment</b> :- Found in shaded shallow rivers</li>
+        <li><b>Maximum length</b> :- Can be grow up to 10 cm</li>
+        <li><b>Identification features</b> :- Pelvic fins are absent</li>
+        <li><b>Other</b> :- This species can be overlapping with Channa kelrtii</li>
 
         ]]>
     </string>
