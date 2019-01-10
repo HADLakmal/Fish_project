@@ -100,6 +100,11 @@
         <li>    <b>English name</b> :- Sri Lanka Asoka Barb</li>
         <li>    <b>Sinhala name</b> :- Ran manissa, Asoka pethiya</li>
         <li>    <b>IUCN Status</b> :- Local (2012): CR </li>
+        <li><b>Global (2018):</b></li>
+        ]]>
+    </string>
+    <string name="pro_1_1">
+        <![CDATA[
         <li>    <b>Location</b> :- Found in upper reaches of the Sitawaka River and Kithulgala area on Kelani river  </li>
         <li>    <b>Environment</b> :- Found in fast flowing well-oxygenated clear waters with 1 to 2m depths having sandy or gravelly substrates</li>
         <li>    <b>Maximum length</b> :- Can be grow up to 14 cm</li>
@@ -123,8 +128,11 @@
         <li><b>English name</b> :- Sri Lanka Martenstyn\'s Barb</li>
         <li><b>Sinhala name</b> :- Dumbara pethiya</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
-
          <li><b>Global (2018):</b></li>
+         ]]>
+    </string>
+    <string name="pro_2_1">
+        <![CDATA[
          <li><b>Location</b> :- Found in Knuckles mountain range and tributaries of River Mahaweli: Loggal Oya and Badulu Oya</li>
          <li><b>Environment</b> :- Found in Shaded or unshaded mid-hill streams with sandy or rocky substrates</li>
          <li><b>Maximum length</b> :- Can be grow up to 12cm</li>
@@ -135,9 +143,6 @@
          <br>Fins are transparent with red/orange color</br>
 	</li>
          <li><b>Other</b> :-  This species can be overlapping with Systomus asoka</li>
-
-
-
         ]]>
     </string>
 
@@ -149,10 +154,12 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
         <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018):</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_3_1">
+        <![CDATA[
         <li><b>Location</b> :- Restricted to the Knuckles mountain range and tributaries of River Mahaweli, Kuda Oya and Amban Ganga</li>
         <li><b>Environment</b> :- Found in fast flowing streams with sandy substrates</li>
         <li><b>Maximum length</b> :- Can be grow up to 10cm</li>
@@ -177,19 +184,18 @@
         <li><b>Sinhala name</b> :- Jayanthiya, Bandula pethiya</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018):</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_4_1">
+        <![CDATA[
         <li><b>Location</b>  :- Restricted to Minimaru Colaniya in Pallegama Estate near Galapitamada</li>
         <li><b>Environment</b> :- Found in slow flowing, shallow streams that flowing through rice field and rubber plantation with sandy and muddy substrates</li>
         <li><b>Maximum length</b> :- Can be grow up to 4.5cm</li>
         <li><b>Identification features :-</b>
         <br>Have two vertical black blotches on the body</br>
         <br>Lateral line is incomplete</br>
-
         </li>
         <li><b>Other</b> :- Females are in lighter color</li>
-
-
-
         ]]>
     </string>
 
@@ -203,7 +209,10 @@
         <li><b>Sinhala name</b> :- Gadaya, Loku gadaya, Kalu gadaya, Weli gadaya</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018): EN</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_5_1">
+        <![CDATA[
         <li><b>Location</b>  :- Found in upper reaches of Mahaweli river</li>
         <li><b>Environment</b> :- Prefer deep rocky pools habitats in fast flowing mountain rivers</li>
         <li><b>Maximum length</b> :- Can be grow up to 24 cm</li>
@@ -228,7 +237,10 @@
         <li><b>Sinhala name</b> :- Thambalaya, Thambalaya vanna</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018):</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_6_1">
+        <![CDATA[
         <li><b>Location</b>  :- Found in Mahaweli and Amban rivers</li>
         <li><b>Environment</b> :- Prefer deep rocky pools habitats in fast flowing mountain rivers</li>
         <li><b>Maximum length</b> :- Can be grow up to 20-30 cm</li>
@@ -238,7 +250,6 @@
         <br>Have inferior sucker like mouth with thick fleshy lips</br>
         </li>
         <li><b>Other</b> :- This species can be overlapping with Systomus martenstyni and Systomus sp.Richmondi</li>
-
         ]]>
     </string>
 
@@ -252,7 +263,10 @@
         <li><b>Sinhala name</b> :- Wilpita dandiya</li>
         <li><b>IUCN Status</b> :- Local (2012): EN</li>
         <li><b>Global (2018):</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_7_1">
+        <![CDATA[
         <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
         <li><b>Environment</b> :- Found in Shaded slow flowing streams with muddy or leafy substrates</li>
         <li><b>Maximum length</b> :- Can be grow up to 8 cm</li>
@@ -262,7 +276,6 @@
         <br>Conspicuous lateral processes on premaxillary</br>
         </li>
         <li><b>Other</b> :- No sexual dimorphism</li>
-
         ]]>
     </string>
 
@@ -276,7 +289,10 @@
         <li><b>Sinhala name</b> :- Ahirava, Pulli ahirava</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018):</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_8_1">
+        <![CDATA[
         <li><b>Location</b>  :- Found in Kelani to Nilwala river basins/li>
         <li><b>Environment</b> :- Found in Shaded slow flowing streams with muddy or leafy substrates</li>
         <li><b>Maximum length</b> :- Can be grow up to 5 cm</li>
@@ -287,8 +303,6 @@
 
         </li>
         <li><b>Other</b> :- This species can be overlapping with Lepidocephalichthys thermalis</li>
-
-
         ]]>
     </string>
 
@@ -302,6 +316,10 @@
         <li><b>Sinhala name</b> :- Malpulutta</li>
          <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018) : LC-</b></li>
+        ]]>
+    </string>
+    <string name="pro_9_1">
+        <![CDATA[
         <li><b>Location</b>  :- Found in Kalu to Niwala river basins</li>
         <li><b>Environment</b> :- Found in small, shallow, slow flowing silted streams</li>
         <li><b>Maximum length</b> :- Can be grow up to 4 cm</li>
@@ -312,10 +330,9 @@
         <br>Have two dark lines which start from snout to posterior end of the operculum</br>
         </li>
         <li><b>Other</b> :- Females and juveniles lack the elongated filaments and the blue tint on the fins,
-Males are larger and more colorful than females,
-Females and juveniles can be overlapping with Pseudosphromenus
-cupanus</li>
-
+        Males are larger and more colorful than females,
+        Females and juveniles can be overlapping with Pseudosphromenus
+        cupanus</li>
         ]]>
     </string>
 
@@ -328,20 +345,20 @@ cupanus</li>
         <li><b>English name</b> :- Sri Lanka Lipstick Gobyb</li>
         <li><b>Sinhala name</b> :- Thol rathu weligowwa</li>
         <li><b>IUCN Status</b> :- Local (2012): EN </li>
-
+        ]]>
+    </string>
+    <string name="pro_10_1">
+        <![CDATA[
         <li><b>Global (2018): DD-</b></li>
         <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
-        <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing
-water</li>
+        <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing water</li>
         <li><b>Maximum length</b> :- Can be grow up to 5 cm</li>
         <li><b>Identification features :-</b>
         <br>Male brownish to yellowish with bright red lips</br>
         <br>Bright red colored elliptical blotch found in base of the caudal fin</br>
-
         </li>
         <li><b>Other</b> :- Females Lack of red color in the body</li>
         <li><b></b></li>
-
         ]]>
     </string>
 
@@ -355,7 +372,10 @@ water</li>
         <li><b>Sinhala name</b> :- Gal weligowwa</li>
         <li><b>IUCN Status</b> :- Local (2012): CR</li>
         <li><b>Global (2018) :DD</b></li>
-
+        ]]>
+    </string>
+    <string name="pro_11_1">
+        <![CDATA[
         <li><b>Location</b> :- Found in Kelani to Gin river basin</li>
         <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing water</li>
         <li><b>Maximum length</b> :- Can be grow up to 8 cm </li>
@@ -382,8 +402,10 @@ water</li>
         <li><b>Sinhala name</b> :- Kata rathu weligowwa</li>
         <li><b>IUCN Status</b> :- Local (2012): EN</li>
         <li><b>Global (2018) : DD</b></li>
-
-        <li><b>Location</b> :- Restricted to wet zone</li>
+        ]]>
+     </string>
+     <string name="pro_12_1">
+        <![CDATA[<li><b>Location</b> :- Restricted to wet zone</li>
         <li><b>Environment</b> :- Found in shallow areas of rivers with sandy, coarse sand or gravel substrate</li>
         <li><b>Maximum length</b> :- Can be grow up to 4-5 cm</li>
         <li><b>Identification features :- </b>
@@ -408,7 +430,10 @@ water</li>
         <li><b>Sinhala name</b> :- Dankuda pethiya</li>
         <li><b>IUCN Status</b> :- Local (2012): VU </li>
         <li>Global (2018) :</li>
-
+        ]]>
+    </string>
+    <string name="pro_13_1">
+        <![CDATA[
         <li><b>Location</b> :- Found in Kalu to Nilwala river basins</li>
         <li><b>Environment</b> :- Found in shaded shallow rivers</li>
         <li><b>Maximum length</b> :- Can be grow up to 10 cm</li>
