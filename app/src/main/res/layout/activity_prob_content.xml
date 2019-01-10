@@ -94,12 +94,14 @@
                 android:layout_height="match_parent"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@android:color/black"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/global"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/prohibited_cont_1"
@@ -107,25 +109,27 @@
                 android:layout_height="match_parent"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@android:color/black"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/image_prob"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerInside" />
+                android:scaleType="centerInside"
+                android:visibility="visible" />
 
             <LinearLayout
+                android:id="@+id/table_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TableLayout
-                    android:id="@+id/table_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -274,12 +278,19 @@
                     </TableRow>
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -379,12 +390,19 @@
 
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -459,12 +477,19 @@
 
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -604,12 +629,19 @@
 
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -709,12 +741,19 @@
 
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_8"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:stretchColumns="1"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TableRow android:layout_width="wrap_content">
 
@@ -789,8 +828,15 @@
 
                 </TableLayout>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table_13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TableLayout
-                    android:id="@+id/table_13"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:stretchColumns="1"

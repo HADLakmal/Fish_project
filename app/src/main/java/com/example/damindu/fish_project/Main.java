@@ -22,9 +22,9 @@ public class Main extends AppCompatActivity {
     private static int NUM_PAGES = 0;
     private ArrayList<ImageModel> imageModelArrayList;
 
-    private int[] myImageList = new int[]{R.drawable.pro_1, R.drawable.pro_2,
+    private int[] myImageList = new int[]{R.drawable.pro_1, R.drawable.pro_7,
             R.drawable.pro_3,R.drawable.pro_4
-            ,R.drawable.pro_5,R.drawable.pro_6};
+            ,R.drawable.pro_11,R.drawable.pro_13};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

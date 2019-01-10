@@ -21,8 +21,7 @@ public class Prob_content extends AppCompatActivity {
     CircularImageView imageView;
     ImageView femaleImage;
     ImageView global;
-    TableLayout [] table = {findViewById(R.id.table_2),findViewById(R.id.table_3),findViewById(R.id.table_4),
-            findViewById(R.id.table_6),findViewById(R.id.table_7),findViewById(R.id.table_8),findViewById(R.id.table_13)};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,9 +34,7 @@ public class Prob_content extends AppCompatActivity {
         imageView = (CircularImageView) findViewById(R.id.circularImageViewFish);
         femaleImage = (ImageView) findViewById(R.id.image_prob);
         global = (ImageView) findViewById(R.id.global);
-//        for(TableLayout t : table){
-//            t.setVisibility(t.GONE);
-//        }
+        visibiltyGone();
 
         //key value extract
         Intent intent = getIntent();
@@ -46,7 +43,6 @@ public class Prob_content extends AppCompatActivity {
         String nameText = "";
         String content = "";
         String content_1 = "";
-        TableRow tr;
         switch (key) {
 
             case "1":
@@ -64,7 +60,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_2_name);
                 content = getString(R.string.pro_2);
                 content_1 = getString(R.string.pro_2_1);
-                table[0].setVisibility(table[0].VISIBLE);
+                findViewById(R.id.table_2).setVisibility(View.VISIBLE);
                 break;
 
             case "3":
@@ -73,7 +69,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_3_name);
                 content = getString(R.string.pro_3);
                 content_1 = getString(R.string.pro_3_1);
-                table[1].setVisibility(table[1].VISIBLE);
+                findViewById(R.id.table_3).setVisibility(View.VISIBLE);
                 break;
 
             case "4":
@@ -82,7 +78,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_4_name);
                 content = getString(R.string.pro_4);
                 content_1 = getString(R.string.pro_4_1);
-                table[2].setVisibility(table[2].VISIBLE);
+                findViewById(R.id.table_4).setVisibility(View.VISIBLE);
                 break;
 
             case "5":
@@ -99,7 +95,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_6_name);
                 content = getString(R.string.pro_6);
                 content_1 = getString(R.string.pro_6_1);
-                table[3].setVisibility(table[3].VISIBLE);
+                findViewById(R.id.table_6).setVisibility(View.VISIBLE);
                 break;
 
             case "7":
@@ -108,7 +104,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_7_name);
                 content = getString(R.string.pro_7);
                 content_1 = getString(R.string.pro_7_1);
-                table[4].setVisibility(table[4].VISIBLE);
+                findViewById(R.id.table_4).setVisibility(View.VISIBLE);
                 break;
 
             case "8":
@@ -117,7 +113,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_8_name);
                 content = getString(R.string.pro_8);
                 content_1 = getString(R.string.pro_8_1);
-                table[5].setVisibility(table[5].VISIBLE);
+                findViewById(R.id.table_8).setVisibility(View.VISIBLE);
                 break;
 
             case "9":
@@ -158,7 +154,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_13_name);
                 content = getString(R.string.pro_13);
                 content_1 = getString(R.string.pro_13_1);
-                table[6].setVisibility(table[6].VISIBLE);
+                findViewById(R.id.table_13).setVisibility(View.VISIBLE);
                 break;
 
             default:
@@ -175,6 +171,16 @@ public class Prob_content extends AppCompatActivity {
             textView_1.setText(Html.fromHtml(content_1));
             name.setText(Html.fromHtml(nameText));
         }
+    }
+
+    protected void visibiltyGone(){
+            findViewById(R.id.table_2).setVisibility(View.GONE);
+            findViewById(R.id.table_3).setVisibility(View.GONE);
+            findViewById(R.id.table_4).setVisibility(View.GONE);
+            findViewById(R.id.table_6).setVisibility(View.GONE);
+            findViewById(R.id.table_7).setVisibility(View.GONE);
+            findViewById(R.id.table_8).setVisibility(View.GONE);
+            findViewById(R.id.table_13).setVisibility(View.GONE);
     }
 
 }
