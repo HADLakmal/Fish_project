@@ -2,11 +2,13 @@ package com.example.damindu.fish_project;
 
 import android.content.Intent;
 import android.os.Handler;
+import android.support.constraint.ConstraintLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.viewpagerindicator.CirclePageIndicator;
 
@@ -30,11 +32,26 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final ImageButton restricted = findViewById(R.id.prohibited_cont);
-        restricted.setOnClickListener(new View.OnClickListener() {
+        final ConstraintLayout prohibited = findViewById(R.id.restircted_cont);
+        prohibited.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main.this, Prohibited_button.class));
+            }
+        });
+        final ConstraintLayout restricted = findViewById(R.id.restrictedlayout);
+        restricted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main.this, Restricted_button.class));
+            }
+        });
+
+        final ImageView setting = findViewById(R.id.setting);
+        restricted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main.this, SettingsActivity.class));
             }
         });
 

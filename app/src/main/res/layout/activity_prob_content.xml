@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".Prob_content">
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     <TextView
         android:id="@+id/header"
@@ -21,13 +29,13 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:typeface="monospace"
-        app:layout_constraintBottom_toTopOf="@+id/pro_name"
+        app:layout_constraintBottom_toTopOf="@+id/res_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/pro_name"
+        android:id="@+id/res_name"
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginStart="10dp"
@@ -43,31 +51,32 @@
         android:typeface="monospace"
         app:layout_constraintBottom_toTopOf="@+id/scrollView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/circularImageViewFish"
+        app:layout_constraintStart_toEndOf="@+id/circularImageViewFishres"
         app:layout_constraintTop_toBottomOf="@+id/header" />
 
-    <com.mikhaellopez.circularimageview.CircularImageView
+        <com.mikhaellopez.circularimageview.CircularImageView
 
-        android:id="@+id/circularImageViewFish"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="10dp"
-        android:saveEnabled="false"
-        android:scaleType="centerInside"
-        android:src="@drawable/pro_1"
-        app:civ_border_color="@android:color/holo_red_dark"
-        app:civ_border_width="4dp"
-        app:civ_shadow="false"
-        app:civ_shadow_color="#4B0082"
-        app:civ_shadow_radius="10"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
-        app:layout_constraintEnd_toStartOf="@+id/pro_name"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header" />
+            android:id="@+id/circularImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="false"
+            android:saveEnabled="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/pro_1"
+            app:civ_border_color="@android:color/holo_red_dark"
+            app:civ_border_width="4dp"
+            app:civ_shadow="false"
+            app:civ_shadow_color="#4B0082"
+            app:civ_shadow_radius="10"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+            app:layout_constraintEnd_toStartOf="@+id/res_name"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -81,15 +90,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pro_name">
+        app:layout_constraintTop_toBottomOf="@+id/res_name">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/image_prob"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
             <TextView
-                android:id="@+id/prohibited_cont"
+                android:id="@+id/restircted_cont"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textAppearance="@android:style/TextAppearance.Medium"
@@ -110,13 +127,6 @@
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@android:color/black"
                 android:textSize="20dp"
-                android:visibility="visible" />
-
-            <ImageView
-                android:id="@+id/image_prob"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerInside"
                 android:visibility="visible" />
 
             <LinearLayout
@@ -893,4 +903,52 @@
 
         </LinearLayout>
     </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:alpha="0.3"
+            android:background="@color/vpi__background_holo_dark"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!---add your views here-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!---add your views here-->
+            <ImageView
+                android:id="@+id/popup_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pro_12" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@android:drawable/btn_dialog" />
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>

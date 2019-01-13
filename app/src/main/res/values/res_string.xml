@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="res_1_name">
+        "HALMAL DANDIYA"
+    </string>
+    <string name="res_1">
+        <![CDATA[<h3>Scientific name :- <i>Rasboroides vaterifloris</i></h3> \n
+        <li>    <b>Family</b> :- Cyprinidae</li>
+        <li>    <b>English name</b> :- Sri Lanka Golden Rasbora</li>
+        <li>    <b>Sinhala name</b> :- Halmal dandiya, Halmal thiththaya</li>
+        <li>    <b>IUCN Status</b> :- Local (2012): EN </li>
+        <li><b>Global (2018):</b> NE</li>
+        ]]>
+    </string>
+    <string name="res_1_1">
+        <![CDATA[
+        <li>    <b>Location</b> :- Restricted to Ratnapure and Gileemale areas </li>
+        <li>    <b>Environment</b> :- Found in shallow, cool, clear, shady pools in fast flowing streams </li>
+        <li>    <b>Maximum length</b> :- Can be grow up to 2.8cm </li>
+        <li>    <b>Identification features</b> :-
+        <br>Females are in lighter color </br>
+        <br>Have different color forms</br>
+        <br>This species can be overlapping with Rasboroides pallidus</br>
+	    </li>
+        <li><b>Other</b> :-  N/A</li>
+          ]]>
+    </string>
+
+    <string name="res_2_name">
+        "LE THITHTHAYA"
+    </string>
+    <string name="res_2">
+        <![CDATA[<h3>Scientific name :- <i>Puntius titteyal</i></h3> \n
+        <li><b>Family</b> :- Cyprinidae</li>
+        <li><b>English name</b> :- Sri Lanka Cherry Barb/li>
+        <li><b>Sinhala name</b> :- Le thiththaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN</li>
+         <li><b>Global (2018):</b>LC</li>
+         ]]>
+    </string>
+    <string name="res_2_1">
+        <![CDATA[
+         <li><b>Location</b> :- Found in Kelani to Nilwala river basins</li>
+         <li><b>Environment</b> :- Found in Heavily shaded, shallow, slow-flowing waters with silty and leaf-debris substrates  </li>
+         <li><b>Maximum length</b> :- Can be grow up to 2.5-3.5 cm/li>
+         <li><b>Identification features :-</b>
+         <br> Females are in lighter color</br>
+         <br> Have different color formss</br>
+	</li>
+         <li><b>Other</b> :-  N/A</li>
+        ]]>
+    </string>
+
+    <string name="res_3_name">
+        "BULATH HAPAYA"
+    </string>
+    <string name="res_3">
+        <![CDATA[<h3>Scientific name :- <i>Pethia nigrofasciata</i></h3> \n
+        <li><b>Family</b> :- Cyprinidae</li>
+        <li><b>English name</b> :- Sri Lanka Black Ruby Barb</li>
+        <li><b>Sinhala name</b> :- Bulath hapaya, Manamaalaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN</li>
+        <li><b>Global (2018):</b> NE</li>
+        ]]>
+    </string>
+    <string name="res_3_1">
+        <![CDATA[
+        <li><b>Location</b> :- Found in Kelani to Nilwala river basins and tributes in Walawe river</li>
+        <li><b>Environment</b> :- Found in Clear, cool shaded stream waters with sandy or gravel substrate</li>
+        <li><b>Maximum length</b> :-Can be grow up to 5.25 cm</li>
+        <li><b>Identification features :-</b>
+        <br> Females are lack in red color</br>
+        <br>Have different color forms</br>
+        </li>
+        <li><b>Other</b> :-  N/A</li>
+
+        ]]>
+    </string>
+
+    <string name="res_4_name">
+        "DEPULLIYA"
+    </string>
+    <string name="res_4">
+        <![CDATA[<h3>Scientific name :- <i>Pethiya cumingii</i></h3> \n
+        <li><b>Family</b> :- Cyprinidae</li>
+        <li><b>English name</b> :- Sri Lanka Cuming\'s Barb</li>
+        <li><b>Sinhala name</b> :- Depulliya, Pothaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN</li>
+        <li><b>Global (2018):</b>NE</li>
+        ]]>
+    </string>
+    <string name="res_4_1">
+        <![CDATA[
+        <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
+        <li><b>Environment</b> :- Found in clear, shallow, slow flowing, shaded streams with mud or silt substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 5cm</li>
+        <li><b>Identification features :-</b>
+        N/A
+        </li>
+        <li><b>Other</b> :-
+        <br> Females are in lighter color</br>
+        <br>This species can be overlapping with Pethiya reval</br></li>
+        ]]>
+    </string>
+
+    <string name="res_5_name">
+        "PATHIRANA SAALAYA"
+    </string>
+    <string name="res_5">
+        <![CDATA[<h3>Scientific name :- <i>Devario pathirana</i></h3> \n
+        <li><b>Family</b> :- Cyprinidae</li>
+        <li><b>English name</b> :- Sri Lanka Barred Danio</li>
+        <li><b>Sinhala name</b> :- Pathirana saalaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018): </b>EN</li>
+        ]]>
+    </string>
+    <string name="res_5_1">
+        <![CDATA[
+        <li><b>Location</b>  :- Found in  Nilwala river basins</li>
+        <li><b>Environment</b> :- Occurs in pools and in swift-flowing areas of streams with a pebble or boulder substrate frequenting near-surface waters</li>
+        <li><b>Maximum length</b> :- Can be grow up to 6cm</li>
+
+        <li><b>Other</b>  :- This species can be overlapping with Devario malabaricus</li>
+
+        ]]>
+    </string>
+
+    <string name="res_6_name">
+        "THALKOSSA"
+    </string>
+    <string name="res_6">
+        <![CDATA[<h3>Scientific name :- <i>Belontia signata</i></h3> \n
+        <li><b>Family</b> :- Belontidae</li>
+        <li><b>English name</b> :- Sri Lanka Combtail</li>
+        <li><b>Sinhala name</b> :- Thalkossa, Pulutta, Kola moda</li>
+        <li><b>IUCN Status</b> :- Local (2012): NT</li>
+        <li><b>Global (2018):</b> LC</li>
+        ]]>
+    </string>
+    <string name="res_6_1">
+        <![CDATA[
+        <li><b>Location</b>  :- Found in Kelani to Nilwala river basins and mid-hill region of the Mahaweli river basin</li>
+        <li><b>Environment</b> :- Found in  shaded margins of slow flowing, shallow clear streams with pebble or sand substrates</li>
+        <li><b>Maximum length</b> :- Can be grow up to 10cm</li>
+
+        <li><b>Other</b> :-
+        <br>Females are in lighter color with shorter filaments on fins</br>
+        <br>Juveniles have dark brown/black spot on posterior end of the base of caudal fin and elongated rays are absent in caudal fin</br>
+        <br>Have different color forms</br></li>
+        ]]>
+    </string>
+
+    <string name="res_7_name">
+        "MAGURA"
+    </string>
+    <string name="res_7">
+        <![CDATA[<h3>Scientific name :- <i>Clarias brachysoma</i></h3> \n
+        <li><b>Family</b> :- Claridae</li>
+        <li><b>English name</b> :- Sri Lanka Walking Catfish</li>
+        <li><b>Sinhala name</b> :-Magura,Vel magura</li>
+        <li><b>IUCN Status</b> :- Local (2012): NT</li>
+        <li><b>Global (2018):</b>NE</li>
+        ]]>
+    </string>
+    <string name="res_7_1">
+        <![CDATA[
+        <li><b>Location</b>  :- Distributed throughout Sri Lanka (not in very high elevations)</li>
+        <li><b>Environment</b> :- Can be found in clear flowing streams as well as muddy waters</li>
+        <li><b>Maximum length</b> :- Can be grow up to 47cm</li>
+
+        <li><b>Other</b> :- No sexual differences</li>
+        ]]>
+    </string>
+
+    <string name="res_8_name">
+        "BATAKOLA THELIYA"
+    </string>
+    <string name="res_8">
+        <![CDATA[<h3>Scientific name :- <i>Macrognathus pentophthalmos</i></h3> \n
+        <li><b>Family</b> :- Mastacembelidae</li>
+        <li><b>English name</b> :- Mastacembelidae</li>
+        <li><b>Sinhala name</b> :- Batakola Theliya</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR</li>
+        <li><b>Global (2018):</b>NE</li>
+        ]]>
+    </string>
+    <string name="res_8_1">
+        <![CDATA[
+        <li><b>Location</b>  :- Could be extinct</li>
+        <li><b>Environment</b> :- N/A</li>
+        <li><b>Maximum length</b> :- N/A</li>
+
+        <li><b>Other</b> :- The names which are highlighted as yellow color should be italic form</li>
+        ]]>
+    </string>
+
+
+</resources>

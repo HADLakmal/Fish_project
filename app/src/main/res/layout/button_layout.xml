@@ -14,26 +14,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
-            app:srcCompat="@android:drawable/btn_dialog" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="202dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentEnd="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginEnd="0dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_marginTop="10dp"
-            android:text="TextView"
-            android:textColor="@color/vpi__background_holo_dark"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="-50dp" >
+
+            <!---add your views here-->
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/about" />
+
     </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

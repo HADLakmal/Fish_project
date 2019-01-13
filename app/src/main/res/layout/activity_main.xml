@@ -13,14 +13,13 @@
         android:id="@+id/logo"
         android:layout_width="302dp"
         android:layout_height="77dp"
-        android:layout_marginBottom="17dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="43dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="17dp"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/about"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.209"
         app:srcCompat="@drawable/logo_hover" />
@@ -42,7 +41,6 @@
         android:id="@+id/bottomwhiteline"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:layout_marginBottom="2dp"
         android:layout_marginTop="5dp"
         app:layout_constraintBottom_toTopOf="@+id/restrictedlayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,9 +51,9 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
-        android:layout_height="135dp"
-        android:layout_marginBottom="2dp"
+        android:layout_height="190dp"
         android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomwhiteline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,101 +90,131 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/restrictedlayout"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/prohibited_cont"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/restircted_cont"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bottomwhiteline">
 
         <ImageButton
             android:id="@+id/Restricted"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:adjustViewBounds="true"
-            android:background="@drawable/restricted"
+            android:background="@color/default_circle_indicator_fill_color"
+            android:backgroundTint="@color/default_circle_indicator_fill_color"
+            android:clickable="false"
             android:cropToPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/arrow"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="RESTRICTED SPECIES"
+            android:textColor="@color/vpi__background_holo_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </android.support.constraint.ConstraintLayout>
 
-    <ImageButton
-        android:id="@+id/prohibited_cont"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="100dp"
-        android:adjustViewBounds="false"
-        android:background="@drawable/prohibited"
-        android:cropToPadding="false"
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/restircted_cont"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/scannerlayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/relativeLayout"
-        app:layout_constraintTop_toBottomOf="@+id/restrictedlayout" />
-
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/scannerlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prohibited_cont">
+        app:layout_constraintTop_toBottomOf="@+id/restrictedlayout">
 
         <ImageButton
-            android:id="@+id/scaner"
-            android:layout_width="170dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="110dp"
-            android:layout_marginEnd="110dp"
+            android:id="@+id/Prohibited"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
             android:adjustViewBounds="false"
-            android:background="@drawable/scaner"
+            android:background="@color/default_circle_indicator_fill_color"
+            android:clickable="false"
             android:cropToPadding="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="335dp"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:layout_marginStart="34dp"
-            android:layout_marginEnd="42dp"
+            android:background="@drawable/arrow"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="PROHIBITED SPECIES"
+            android:textColor="@color/vpi__background_holo_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/fishes" />
+            app:layout_constraintTop_toTopOf="parent" />
+
     </android.support.constraint.ConstraintLayout>
 
-    <ImageButton
-        android:id="@+id/about"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="342dp"
-        android:layout_marginBottom="48dp"
-        android:adjustViewBounds="false"
-        android:background="@drawable/about"
-        android:cropToPadding="false"
-        app:layout_constraintBottom_toTopOf="@+id/upperwhiteline"
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/scannerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:drawable/editbox_background_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/restircted_cont">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_camera"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_info_details" />
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>
