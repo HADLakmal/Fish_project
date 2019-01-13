@@ -48,7 +48,7 @@ public class Main extends AppCompatActivity {
         });
 
         final ImageView setting = findViewById(R.id.setting);
-        restricted.setOnClickListener(new View.OnClickListener() {
+        setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main.this, SettingsActivity.class));

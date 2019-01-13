@@ -99,29 +99,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bottomwhiteline">
 
-        <ImageButton
-            android:id="@+id/Restricted"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:adjustViewBounds="true"
-            android:background="@color/default_circle_indicator_fill_color"
-            android:backgroundTint="@color/default_circle_indicator_fill_color"
-            android:clickable="false"
-            android:cropToPadding="true"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:background="@drawable/arrow"
             android:fontFamily="monospace"
             android:gravity="center"
             android:text="RESTRICTED SPECIES"
-            android:textColor="@color/vpi__background_holo_dark"
+            android:textColor="@color/vpi__bright_foreground_disabled_holo_dark"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -142,28 +127,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/restrictedlayout">
 
-        <ImageButton
-            android:id="@+id/Prohibited"
-            android:layout_width="match_parent"
-            android:layout_height="81dp"
-            android:adjustViewBounds="false"
-            android:background="@color/default_circle_indicator_fill_color"
-            android:clickable="false"
-            android:cropToPadding="false"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:background="@drawable/arrow"
             android:fontFamily="monospace"
             android:gravity="center"
             android:text="PROHIBITED SPECIES"
-            android:textColor="@color/vpi__background_holo_dark"
+            android:textColor="@color/vpi__bright_foreground_disabled_holo_dark"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
