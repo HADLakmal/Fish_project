@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="knowledge_title">Knowledge</string>
+    <string name="knowledge_h1">Dentification techniques for fish</string>
+    <string name="knowledge_dis1">Scientific identification of fishes is based mainly on morphometric and meristic characters. This is the most simplest and direct method of fish identification. For further studies protein studies and DNA sequences are mostly used. But this is practically not easy especially due to the expenses.</string>
+    <string name="knowledge_h2">Morphometric Characters</string>
+    <string name="knowledge_dis2">Morphometric characters are measurable characters of a fish such as Total length, Fork length, Standard length, Head length etc.</string>
+    <string name="knowledge_h3">Meristic Characters</string>
+    <string name="knowledge_dis3">Meristic counts are countable characters of a fish such as number of fin rays, fin spines, vertebrae and gill slits etc.</string>
+    <string name="knowledge_h4">General outline of a fish</string>
+
+    <string name="knowledge_h5">Scale counts of a fish</string>
+    <string name="knowledge_h6">General measurements of a fish</string>
+    <string name="knowledge_h7">Scale types</string>
+    <string name="knowledge_h8">Shape of mouth</string>
+    <string name="knowledge_h9">What is illegal wildlife trade, bio piracy, bio-theft and its impact?</string>
+    <string name="knowledge_h10">Illegal wildlife trade</string>
+    <string name="knowledge_dis10">Each year, hundreds of valuable plants and animals are caught or harvested from the wild and then sold as food, pets, ornamental plants, leather, tourist curios, and medicine. Illegal wildlife trade is devastating wildlife species the world over, as poachers, traffickers and highly-organized criminal syndicates ruthlessly pursue profit at any cost to meet consumer demand. (www.traffic.org) Illegal wildlife trade is a multibillion-dollar business involving the unlawful harvest and trade of live animals and plants or parts and products derived from them.</string>
+    <string name="knowledge_h11">Bio piracy</string>
+    <string name="knowledge_dis11">Bio Piracy means the gaining of exclusive monopoly rights, over the biological material of one country by individuals, institutions or companies of other countries that ultimately leads to the denial of the rights. (C.L.Akurugoda)</string>
+    <string name="knowledge_h12">Bio-theft</string>
+    <string name="knowledge_dis12">Bio-theft is the illegal or unauthorized exportation of organisms for commercial purposes (K. K. Amarasinghe)</string>
+    <string name="knowledge_h13">Impact of bio piracy?</string>
+    <string name="knowledge_dis13"> Extinction of endemic living organisms.
+                                    Depletion of bio diversity.
+                                    Privatization of bio treasures of the country.</string>
+
+
+</resources>

@@ -28,14 +28,13 @@
         <activity android:name=".Prob_content" />
         <activity android:name=".Restri_content" />
         <activity android:name=".Restricted_button" />
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".Main">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.damindu.fish_project.Main" />
-        </activity>
+
+
+
+        <activity android:name=".Conf_content" />
+        <activity android:name=".Conflicted_button" />
+        <activity android:name=".About" />
+        <activity android:name=".Acknowledge" />
     </application>
 
 </manifest>

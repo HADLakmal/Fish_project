@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="about_title"> WHO WE ARE</string>
+    <string name="fish_name">Lanka Fish</string>
+    <string name="fish_dis">Sri Lanka is home for 53 endemic freshwater species. Conservation of endemic fish species is a major conversation today. Lanka fish is a user friendly mobile application equipped with the best available science and technology to identify and conserve Sri Lankan endemic fresh water species...  </string>
+    <string name="mission_name">Mission and Vision</string>
+    <string name="mission_dis">The Mission of the Ceylon Fish Guide is to promote better understanding of freshwater endemic fish species among users, and to encourage the conservation of Sri Lankan freshwater species for future generations...</string>
+
+</resources>

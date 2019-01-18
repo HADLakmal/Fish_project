@@ -81,7 +81,7 @@
 
                 android:src="@drawable/pro_1"
                 android:textAlignment="center"
-                app:civ_border_color="@android:color/holo_red_dark"
+                app:civ_border_color="@android:color/holo_green_dark"
                 app:civ_border_width="4dp"
                 app:civ_shadow="false"
                 app:civ_shadow_color="#4B0082"
@@ -114,6 +114,7 @@
                     android:id="@+id/image_res"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
                     android:clickable="true"
                     android:scaleType="centerInside"
                     android:visibility="visible"
@@ -133,6 +134,7 @@
                     android:id="@+id/global"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
                     android:visibility="visible" />
 
                 <TextView
@@ -414,6 +416,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
+        android:layout_margin="5dp"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
@@ -424,7 +427,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:alpha="0.3"
+            android:alpha="0.6"
             android:background="@color/vpi__background_holo_dark"
             android:gravity="center"
             android:orientation="vertical">
@@ -449,8 +452,8 @@
 
         <ImageView
             android:id="@+id/imageView_close"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="top|right"
             android:clickable="true"
             android:src="@android:drawable/btn_dialog" />

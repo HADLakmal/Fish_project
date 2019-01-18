@@ -98,6 +98,7 @@ public class Restri_content extends AppCompatActivity {
 
             case "4":
                 imageView.setImageResource(R.mipmap.r_4);
+                femaleImage.setImageResource(R.mipmap.r_4);
                 popup.setImageResource(R.mipmap.r_4_dis);
                 global.setImageResource(R.mipmap.global_r4);
                 nameText = getString(R.string.res_4_name);
