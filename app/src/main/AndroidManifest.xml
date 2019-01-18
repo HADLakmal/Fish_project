@@ -35,6 +35,7 @@
         <activity android:name=".Conflicted_button" />
         <activity android:name=".About" />
         <activity android:name=".Acknowledge" />
+        <activity android:name=".Statistics" />
     </application>
 
 </manifest>

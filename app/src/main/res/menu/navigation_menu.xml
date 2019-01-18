@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:itemIconTint="@color/default_underline_indicator_selected_color">
+    <group android:checkableBehavior="single">
     <item
         android:id="@+id/nav_about"
         android:icon="@android:drawable/ic_menu_info_details"
@@ -19,6 +20,7 @@
         android:id="@+id/nav_stat"
         android:actionLayout="@android:drawable/ic_menu_sort_by_size"
         android:title="Statistics" />
+    </group>
 
 
 </menu>

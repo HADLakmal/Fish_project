@@ -2,22 +2,17 @@ package com.example.damindu.fish_project;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.viewpagerindicator.CirclePageIndicator;
 
@@ -37,10 +32,13 @@ public class Main extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mtoggel;
 
+    //Navigation
+
+
 
     private int[] myImageList = new int[]{R.drawable.pro_1, R.drawable.pro_7,
             R.drawable.pro_3, R.drawable.pro_4
-            , R.drawable.pro_11, R.drawable.pro_13};
+            , R.drawable.pro_10, R.drawable.pro_13};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,11 +60,31 @@ public class Main extends AppCompatActivity {
         });
 
         //Drawer action handle
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout_main);
         mtoggel = new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close);
         mDrawerLayout.addDrawerListener(mtoggel);
         mtoggel.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //Navigation button click
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        Log.d("mine","dasd");
+                        // set item as selected to persist highlight
+                        menuItem.setChecked(true);
+                        // close drawer when item is tapped
+                        mDrawerLayout.closeDrawers();
+
+                        itemSelected(menuItem);
+                        // Add code here to update the UI based on the item selected
+                        // For example, swap UI fragments here
+
+                        return true;
+                    }
+                });
 
 //        final ImageView setting = findViewById(R.id.setting);
 //        final LinearLayout menu = findViewById(R.id.menu);
@@ -169,20 +187,26 @@ public class Main extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.navigation_menu, menu);
-        return true;
-    }
-
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.navigation_menu, menu);
+//        return true;
+//    }
+//
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Log.d("item",item.getItemId()+"");
-        if(mtoggel.onOptionsItemSelected(item)){
-
+        Log.d("Item",item.getItemId()+"");
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                mDrawerLayout.openDrawer(GravityCompat.START);
+                return true;
         }
-       else
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    void itemSelected(MenuItem item) {
         switch (item.getItemId()) {
 
             case R.id.nav_about: {
@@ -198,16 +222,16 @@ public class Main extends AppCompatActivity {
                 break;
             }
             case R.id.nav_stat: {
-                //do somthing
+                startActivity(new Intent(Main.this, Statistics.class));
                 break;
             }
             default: {
-                return super.onOptionsItemSelected(item);
+                break;
             }
-
         }
-        return true;
     }
+
+
 
 
 }
