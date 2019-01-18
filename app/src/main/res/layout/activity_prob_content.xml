@@ -99,10 +99,13 @@
             <ImageView
                 android:id="@+id/image_prob"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 android:clickable="true"
+                android:cropToPadding="false"
                 android:scaleType="centerInside"
-                android:visibility="visible" />
+                android:visibility="visible"
+                app:srcCompat="@drawable/pro_13" />
 
             <TextView
                 android:id="@+id/restircted_cont"
@@ -117,6 +120,7 @@
                 android:id="@+id/global"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:adjustViewBounds="true"
                 android:visibility="visible" />
 
             <TextView
@@ -940,6 +944,7 @@
                 android:id="@+id/popup_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/pro_12" />
         </LinearLayout>
 

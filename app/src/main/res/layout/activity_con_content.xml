@@ -25,7 +25,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="55dp"
             android:layout_marginBottom="18dp"
-            android:text="PROHIBITED SPECIES"
+            android:text="UNIDENTIFIED SPECIES"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@android:color/background_dark"
             android:textSize="30sp"
@@ -112,7 +112,7 @@
 
                 <ImageView
                     android:id="@+id/image_res"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:clickable="true"
@@ -132,7 +132,7 @@
 
                 <ImageView
                     android:id="@+id/global"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:visibility="visible" />
@@ -186,7 +186,8 @@
                 android:id="@+id/popup_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/pro_12" />
+                android:adjustViewBounds="true"
+                app:srcCompat="@mipmap/r_1" />
         </LinearLayout>
 
         <ImageView
