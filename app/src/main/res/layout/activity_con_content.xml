@@ -27,7 +27,7 @@
             android:layout_marginBottom="18dp"
             android:text="UNIDENTIFIED SPECIES"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textColor="@android:color/background_dark"
+            android:textColor="@color/vpi__background_holo_light"
             android:textSize="30sp"
             android:textStyle="bold"
             android:typeface="monospace"
@@ -155,7 +155,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:layout_margin="5dp"
+        android:layout_margin="1dp"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
@@ -165,7 +165,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="1dp"
             android:alpha="0.6"
             android:background="@color/vpi__background_holo_dark"
             android:gravity="center"
@@ -177,7 +177,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="1dp"
             android:gravity="center"
             android:orientation="vertical">
 

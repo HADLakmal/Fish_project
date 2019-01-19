@@ -9,8 +9,8 @@
         <li>    <b>Family</b> :- Cyprinidae</li>
         <li>    <b>English name</b> :- Sri Lanka Golden Rasbora</li>
         <li>    <b>Sinhala name</b> :- Halmal dandiya, Halmal thiththaya</li>
-        <li>    <b>IUCN Status</b> :- Local (2012): EN </li>
-        <li><b>Global (2018):</b> NE</li>
+        <li>    <b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018): NE</br> </li>
         ]]>
     </string>
     <string name="res_1_1">
@@ -35,15 +35,15 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Cherry Barb/li>
         <li><b>Sinhala name</b> :- Le thiththaya</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN</li>
-         <li><b>Global (2018):</b>LC</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018): LC</br></li>
          ]]>
     </string>
     <string name="res_2_1">
         <![CDATA[
          <li><b>Location</b> :- Found in Kelani to Nilwala river basins</li>
          <li><b>Environment</b> :- Found in Heavily shaded, shallow, slow-flowing waters with silty and leaf-debris substrates  </li>
-         <li><b>Maximum length</b> :- Can be grow up to 2.5-3.5 cm/li>
+         <li><b>Maximum length</b> :- Can be grow up to 2.5-3.5 cm</li>
          <li><b>Identification features :-</b>
          <br> Females are in lighter color</br>
          <br> Have different color formss</br>
@@ -60,8 +60,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Black Ruby Barb</li>
         <li><b>Sinhala name</b> :- Bulath hapaya, Manamaalaya</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN</li>
-        <li><b>Global (2018):</b> NE</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018): NE</br> </li>
         ]]>
     </string>
     <string name="res_3_1">
@@ -86,8 +86,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Cuming\'s Barb</li>
         <li><b>Sinhala name</b> :- Depulliya, Pothaya</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN</li>
-        <li><b>Global (2018):</b>NE</li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018): NE</br></li>
         ]]>
     </string>
     <string name="res_4_1">
@@ -112,8 +112,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Barred Danio</li>
         <li><b>Sinhala name</b> :- Pathirana saalaya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018): </b>EN</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018): EN</br></li>
         ]]>
     </string>
     <string name="res_5_1">
@@ -135,8 +135,8 @@
         <li><b>Family</b> :- Belontidae</li>
         <li><b>English name</b> :- Sri Lanka Combtail</li>
         <li><b>Sinhala name</b> :- Thalkossa, Pulutta, Kola moda</li>
-        <li><b>IUCN Status</b> :- Local (2012): NT</li>
-        <li><b>Global (2018):</b> LC</li>
+        <li><b>IUCN Status</b> :- Local (2012): NT
+        <br>Global (2018): LC</br> </li>
         ]]>
     </string>
     <string name="res_6_1">
@@ -160,8 +160,8 @@
         <li><b>Family</b> :- Claridae</li>
         <li><b>English name</b> :- Sri Lanka Walking Catfish</li>
         <li><b>Sinhala name</b> :-Magura,Vel magura</li>
-        <li><b>IUCN Status</b> :- Local (2012): NT</li>
-        <li><b>Global (2018):</b>NE</li>
+        <li><b>IUCN Status</b> :- Local (2012): NT
+        <br>Global (2018): NE</br></li>
         ]]>
     </string>
     <string name="res_7_1">
@@ -182,8 +182,8 @@
         <li><b>Family</b> :- Mastacembelidae</li>
         <li><b>English name</b> :- Mastacembelidae</li>
         <li><b>Sinhala name</b> :- Batakola Theliya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018):</b>NE</li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018): NE</br></li>
         ]]>
     </string>
     <string name="res_8_1">

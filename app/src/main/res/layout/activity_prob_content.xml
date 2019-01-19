@@ -15,35 +15,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="18dp"
-        android:text="PROHIBITED SPECIES"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textColor="@android:color/background_dark"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:typeface="monospace"
-        app:layout_constraintBottom_toTopOf="@+id/res_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="18dp"
+            android:text="PROHIBITED SPECIES"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/vpi__background_holo_light"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toTopOf="@+id/res_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/res_name"
             android:layout_width="250dp"
             android:layout_height="100dp"
-            android:layout_marginStart="14dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="31dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text=""
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@android:color/background_dark"
             android:textSize="30sp"
@@ -61,7 +62,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="14dp"
+            android:layout_marginEnd="9dp"
             android:layout_marginBottom="10dp"
             android:clickable="false"
             android:saveEnabled="false"
@@ -75,7 +76,8 @@
             app:layout_constraintBottom_toTopOf="@+id/scrollView3"
             app:layout_constraintEnd_toStartOf="@+id/res_name"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/header" />
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            app:layout_constraintVertical_bias="0.53" />
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -913,7 +915,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:layout_margin="5dp"
+        android:layout_margin="1dp"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
@@ -923,7 +925,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="1dp"
             android:alpha="0.6"
             android:background="@color/vpi__background_holo_dark"
             android:gravity="center"
@@ -935,7 +937,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="5dp"
+            android:layout_margin="1dp"
             android:gravity="center"
             android:orientation="vertical">
 

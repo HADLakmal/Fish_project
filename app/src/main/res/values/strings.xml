@@ -101,8 +101,8 @@
         <li>    <b>Family</b> :- Cyprinidae</li>
         <li>    <b>English name</b> :- Sri Lanka Asoka Barb</li>
         <li>    <b>Sinhala name</b> :- Ran manissa, Asoka pethiya</li>
-        <li>    <b>IUCN Status</b> :- Local (2012): CR </li>
-        <li><b>Global (2018):</b></li>
+        <li>    <b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_1_1">
@@ -129,8 +129,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Martenstyn\'s Barb</li>
         <li><b>Sinhala name</b> :- Dumbara pethiya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-         <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+         </br>Global (2018):</br></li>
          ]]>
     </string>
     <string name="pro_2_1">
@@ -156,8 +156,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
         <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_3_1">
@@ -184,8 +184,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Bandula Barb</li>
         <li><b>Sinhala name</b> :- Jayanthiya, Bandula pethiya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_4_1">
@@ -209,8 +209,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Mountain Labeo</li>
         <li><b>Sinhala name</b> :- Gadaya, Loku gadaya, Kalu gadaya, Weli gadaya</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018): EN</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018): EN</br></li>
         ]]>
     </string>
     <string name="pro_5_1">
@@ -237,8 +237,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Orange-Fin Labeo</li>
         <li><b>Sinhala name</b> :- Thambalaya, Thambalaya vanna</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_6_1">
@@ -263,8 +263,8 @@
         <li><b>Family</b> :- Cyprinidae</li>
         <li><b>English name</b> :- Sri Lanka Wilpita Rasbora</li>
         <li><b>Sinhala name</b> :- Wilpita dandiya</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN</li>
-        <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_7_1">
@@ -289,8 +289,8 @@
         <li><b>Family</b> :- Cobitidae</li>
         <li><b>English name</b> :- Sri Lanka Jonklaas\'s Loach</li>
         <li><b>Sinhala name</b> :- Ahirava, Pulli ahirava</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018):</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018):</br></li>
         ]]>
     </string>
     <string name="pro_8_1">
@@ -316,8 +316,8 @@
         <li><b>Family</b> :- Belontidae</li>
         <li><b>English name</b> :- Sri Lanka Ornate Paradise Fish</li>
         <li><b>Sinhala name</b> :- Malpulutta</li>
-         <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018) : LC-</b></li>
+         <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018) : LC-</br></li>
         ]]>
     </string>
     <string name="pro_9_1">
@@ -346,12 +346,13 @@
         <li><b>Family</b> :- Gobiidae</li>
         <li><b>English name</b> :- Sri Lanka Lipstick Gobyb</li>
         <li><b>Sinhala name</b> :- Thol rathu weligowwa</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN </li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018): DD </br></li>
         ]]>
     </string>
     <string name="pro_10_1">
         <![CDATA[
-        <li><b>Global (2018): DD-</b></li>
+
         <li><b>Location</b>  :- Found in Kelani to Nilwala river basins</li>
         <li><b>Environment</b> :- Found in rocky mid-hill streams with fast flowing water</li>
         <li><b>Maximum length</b> :- Can be grow up to 5 cm</li>
@@ -372,8 +373,8 @@
         <li><b>Family</b> :- Gobiidae</li>
         <li><b>English name</b> :- Red-Tailed Goby</li>
         <li><b>Sinhala name</b> :- Gal weligowwa</li>
-        <li><b>IUCN Status</b> :- Local (2012): CR</li>
-        <li><b>Global (2018) :DD</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): CR
+        <br>Global (2018) :DD</br></li>
         ]]>
     </string>
     <string name="pro_11_1">
@@ -402,8 +403,8 @@
         <li><b>Family</b> :- Gobiidae</li>
         <li><b>English name</b> :- Red-Neck Goby</li>
         <li><b>Sinhala name</b> :- Kata rathu weligowwa</li>
-        <li><b>IUCN Status</b> :- Local (2012): EN</li>
-        <li><b>Global (2018) : DD</b></li>
+        <li><b>IUCN Status</b> :- Local (2012): EN
+        <br>Global (2018) : DD</br></li>
         ]]>
      </string>
     <string name="pro_12_1">
@@ -423,15 +424,15 @@
     </string>
 
     <string name="pro_13_name">
-        "DANKUDA PETHIYA"
+        "KOLA KANAYA"
     </string>
     <string name="pro_13">
-        <![CDATA[<h3>Scientific name :- <i>Dawkinsia srilankensis</i></h3> \n
-        <li><b>Family</b> :- Cyprinidae</li>
-        <li><b>English name</b> :- Sri Lanka Blotched Filamented Barb</li>
-        <li><b>Sinhala name</b> :- Dankuda pethiya</li>
-        <li><b>IUCN Status</b> :- Local (2012): VU </li>
-        <li>Global (2018) :</li>
+        <![CDATA[<h3>Scientific name :- <i>Channa orientalis</i></h3> \n
+        <li><b>Family</b> :- Channidae</li>
+        <li><b>English name</b> :- Smooth-Breasted Snakehead</li>
+        <li><b>Sinhala name</b> :- Kola kanaya, Gas kanaya</li>
+        <li><b>IUCN Status</b> :- Local (2012): VU
+        <br>Global (2018) :</br></li>
         ]]>
     </string>
     <string name="pro_13_1">
