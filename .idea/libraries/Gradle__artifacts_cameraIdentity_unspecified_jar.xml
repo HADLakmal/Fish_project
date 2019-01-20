@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:cameraIdentity:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cameraIdentifier.aar/f846aa9f7c3b7dac7a5760bbac496efa/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cameraIdentifier.aar/f846aa9f7c3b7dac7a5760bbac496efa/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

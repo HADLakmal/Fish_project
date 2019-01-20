@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.android.tflitecamerademo.CameraActivity;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
@@ -56,6 +57,18 @@ public class Main extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main.this, Restricted_button.class));
+
+            }
+        });
+
+        final ConstraintLayout camera = findViewById(R.id.scannerlayout);
+        camera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(Main.this, Restricted_button.class));
+                //CameraActivity
+                startActivity(new Intent(Main.this, CameraActivity.class));
+
             }
         });
 

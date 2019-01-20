@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.damindu.fish_project">
+    package="com.example.damindu.fish_project"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Viewer"
             android:label="@string/title_activity_viewer" />
@@ -28,6 +35,7 @@
         <activity android:name=".Prob_content" />
         <activity android:name=".Restri_content" />
         <activity android:name=".Restricted_button" />
+
 
 
 
