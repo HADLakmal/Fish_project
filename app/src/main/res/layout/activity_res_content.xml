@@ -25,10 +25,10 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="55dp"
             android:layout_marginBottom="18dp"
-            android:text="RESTRICTED SPECIES"
+            android:text="MISIDENTIFIED SPECIES"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/vpi__background_holo_light"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             android:typeface="monospace"
             app:layout_constraintBottom_toTopOf="@+id/res_name"
@@ -79,7 +79,7 @@
                 android:saveEnabled="false"
                 android:scaleType="centerInside"
 
-                android:src="@drawable/pro_1"
+                android:src="@drawable/ic_launcher_background"
                 android:textAlignment="center"
                 app:civ_border_color="@android:color/holo_green_dark"
                 app:civ_border_width="4dp"
@@ -90,14 +90,10 @@
         </LinearLayout>
 
 
-
         <ScrollView
             android:id="@+id/scrollView3"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="8dp"
             android:background="@android:drawable/edit_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

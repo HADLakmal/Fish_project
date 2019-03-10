@@ -138,7 +138,7 @@ public class Prob_content extends AppCompatActivity {
                 nameText = getString(R.string.pro_7_name);
                 content = getString(R.string.pro_7);
                 content_1 = getString(R.string.pro_7_1);
-                findViewById(R.id.table_4).setVisibility(View.VISIBLE);
+                //findViewById(R.id.table_4).setVisibility(View.VISIBLE);
                 break;
 
             case "8":

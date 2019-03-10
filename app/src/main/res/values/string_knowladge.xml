@@ -2,7 +2,7 @@
 <resources>
 
    <string name="knowledge_title">Knowledge</string>
-    <string name="knowledge_h1">Dentification techniques for fish</string>
+    <string name="knowledge_h1">Identification techniques for fish</string>
     <string name="knowledge_dis1">Scientific identification of fishes is based mainly on morphometric and meristic characters. This is the most simplest and direct method of fish identification. For further studies protein studies and DNA sequences are mostly used. But this is practically not easy especially due to the expenses.</string>
     <string name="knowledge_h2">Morphometric Characters</string>
     <string name="knowledge_dis2">Morphometric characters are measurable characters of a fish such as Total length, Fork length, Standard length, Head length etc.</string>

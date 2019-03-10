@@ -115,7 +115,7 @@
                 android:layout_height="100dp"
                 android:fontFamily="monospace"
                 android:gravity="center"
-                android:text="RESTRICTED SPECIES"
+                android:text="MISIDENTIFIED SPECIES"
                 android:textColor="@color/vpi__bright_foreground_disabled_holo_dark"
                 android:textSize="20sp"
                 android:textStyle="bold"
