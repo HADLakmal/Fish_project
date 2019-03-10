@@ -37,9 +37,9 @@ public class Main extends AppCompatActivity {
 
 
 
-    private int[] myImageList = new int[]{R.drawable.pro_1, R.drawable.pro_7,
-            R.drawable.pro_3, R.drawable.pro_4
-            , R.drawable.pro_10, R.drawable.pro_13};
+    private int[] myImageList = new int[]{R.drawable.img_1, R.drawable.img_2,
+            R.drawable.img_3, R.drawable.img_4
+            , R.drawable.img_5, R.drawable.img_6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
